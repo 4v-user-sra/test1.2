@@ -1,8 +1,6 @@
 export type PortfolioCategory =
   | 'Todos'
   | 'Pizzaria'
-  | 'Restaurante'
-  | 'Gastronomia'
   | 'Culinária japonesa';
 
 export type RestaurantSegment =
@@ -247,10 +245,10 @@ export const OFFER_CONDITIONS: string[] = [
 
 export const PORTFOLIO_CASES: PortfolioCase[] = [
   {
-    id: 'recanto-da-pizza',
+    id: 'pizzaria-1',
     code: 'PROJETO 01',
     category: 'Pizzaria',
-    clientName: 'Recanto da Pizza',
+    clientName: 'Pizzaria 1',
     period: '90 dias',
     image: '/src/assets/images/pizzaria_um_case_1795188816764.jpg',
     imageAlt:
@@ -296,14 +294,14 @@ export const PORTFOLIO_CASES: PortfolioCase[] = [
     ],
   },
   {
-    id: 'bella-dona',
+    id: 'pizzaria-2',
     code: 'PROJETO 02',
-    category: 'Restaurante',
-    clientName: 'Bella Dona',
+    category: 'Pizzaria',
+    clientName: 'Pizzaria 2',
     period: '90 dias',
-    image: '/src/assets/images/portfolio_restaurant_menu_1794880719178.jpg',
+    image: '/src/assets/images/pizzaria_dois_case_1795188815293.jpg',
     imageAlt:
-      'Mesa de restaurante contemporâneo com pratos elaborados, massas e apresentação comercial',
+      'Duas pizzas artesanais de pepperoni e cebola caramelizada servidas sobre mesa rústica de madeira',
     featuredKpis: [
       {
         label: 'Compras',
@@ -345,14 +343,14 @@ export const PORTFOLIO_CASES: PortfolioCase[] = [
     ],
   },
   {
-    id: 'bella-maria',
+    id: 'pizzaria-3',
     code: 'PROJETO 03',
-    category: 'Gastronomia',
-    clientName: 'Bella Maria',
+    category: 'Pizzaria',
+    clientName: 'Pizzaria 3',
     period: '90 dias',
-    image: '/src/assets/images/portfolio_burger_1794880718235.jpg',
+    image: '/src/assets/images/pizzaria_tres_case_1795188815228.jpg',
     imageAlt:
-      'Hambúrgueres artesanais com queijo derretido e batatas crocantes em bancada de restaurante',
+      'Fatias de pizza romana quadrada crocante com burrata, presunto parma e rúcula fresca sobre tábua de madeira',
     featuredKpis: [
       {
         label: 'Compras',
@@ -394,10 +392,10 @@ export const PORTFOLIO_CASES: PortfolioCase[] = [
     ],
   },
   {
-    id: 'capitao-sushi',
+    id: 'restaurante-japones',
     code: 'PROJETO 04',
     category: 'Culinária japonesa',
-    clientName: 'Capitão Sushi',
+    clientName: 'Restaurante japonês',
     period: '90 dias',
     image: '/src/assets/images/restaurante_japones_case_1795188815977.jpg',
     imageAlt:

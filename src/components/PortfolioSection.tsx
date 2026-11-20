@@ -13,8 +13,6 @@ import { ResilientImage } from './ResilientImage';
 const CATEGORIES: PortfolioCategory[] = [
   'Todos',
   'Pizzaria',
-  'Restaurante',
-  'Gastronomia',
   'Culinária japonesa',
 ];
 

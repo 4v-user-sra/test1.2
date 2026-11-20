@@ -191,7 +191,7 @@ export function DiagnosticSection({
                         type="text"
                         value={businessName}
                         onChange={(e) => setBusinessName(e.target.value)}
-                        placeholder="Ex: Recanto da Pizza"
+                        placeholder="Ex: Pizzaria 1"
                         aria-invalid={Boolean(errors.businessName)}
                         className="w-full px-3.5 py-2.5 text-sm rounded-xl border border-[#E6D9D0] bg-white text-[#242424] focus:outline-none focus:border-[#E53935]"
                       />
